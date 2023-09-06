@@ -9,9 +9,14 @@ public class Battlefield {
     Ranks = new LinkedList<Rank>();
     p1ID = "1";
     p2ID = "2";
-    for (int i = 0; i < 5; i++) {
-      Ranks.add(new Rank());
-    }
+    Ranks.add(new Rear(p1ID));
+    Ranks.add(new Centre(p1ID));
+    Ranks.add(new Reserves(p1ID));
+    Ranks.add(new Vanguard(p1ID));
+    Ranks.add(new Vanguard(p2ID));
+    Ranks.add(new Reserves(p2ID));
+    Ranks.add(new Centre(p2ID));
+    Ranks.add(new Rear(p2ID));
   }
 
   @Override
