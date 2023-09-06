@@ -1,6 +1,5 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Warfare Simulator
+This is a fantasy warfare simulator using the rules in Kingdoms and Warfare (published by MCDM).
 
 ## Folder Structure
 
